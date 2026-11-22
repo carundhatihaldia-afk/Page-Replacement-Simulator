@@ -1,0 +1,117 @@
+
+/* General Page Styling */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background: #f3f4f8;
+    color: #252a40;
+    text-align: center;
+    padding: 40px 20px;
+}
+
+/* Main Heading */
+
+h1 {
+    color: #493b85;
+    margin-bottom: 15px;
+    font-size: 30px;
+}
+
+p {
+    color: #666;
+    font-size: 17px;
+    margin-bottom: 25px;
+}
+
+/* Main Container */
+
+.container {
+    max-width: 750px;
+    margin: 30px auto;
+}
+
+/* Input Section */
+
+.input-section {
+    background: white;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.08);
+}
+
+h2 {
+    color: #493b85;
+    margin-bottom: 25px;
+    font-size: 23px;
+}
+
+/* Input Labels */
+
+label {
+    display: block;
+    text-align: left;
+    margin: 15px 0 8px;
+    font-weight: bold;
+}
+
+/* Input Fields */
+
+input {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    font-size: 15px;
+    outline: none;
+}
+
+input:focus {
+    border-color: #493b85;
+    box-shadow: 0 0 5px rgba(73, 59, 133, 0.2);
+}
+
+/* Simulation Button */
+
+button {
+    background: #493b85;
+    color: white;
+    border: none;
+    padding: 13px 25px;
+    border-radius: 6px;
+    margin-top: 25px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background 0.3s;
+}
+
+button:hover {
+    background: #362968;
+}
+
+/* Mobile Responsive Design */
+
+@media (max-width: 600px) {
+
+    body {
+        padding: 25px 15px;
+    }
+
+    h1 {
+        font-size: 24px;
+    }
+
+    .input-section {
+        padding: 20px;
+    }
+
+    button {
+        width: 100%;
+    }
+
+}
